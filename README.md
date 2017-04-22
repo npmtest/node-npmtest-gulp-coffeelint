@@ -1,4 +1,7 @@
-# test coverage for  [gulp-coffeelint (v0.6.0)](https://github.com/janraasch/gulp-coffeelint#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-coffeelint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-coffeelint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-coffeelint.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-coffeelint)
+# npmtest-gulp-coffeelint
+
+#### basic test coverage for  [gulp-coffeelint (v0.6.0)](https://github.com/janraasch/gulp-coffeelint#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-coffeelint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-coffeelint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-coffeelint.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-coffeelint)
+
 #### Lint your CoffeeScript using gulp and CoffeeLint
 
 [![NPM](https://nodei.co/npm/gulp-coffeelint.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-coffeelint)
@@ -103,7 +106,8 @@
         "prepublish": "gulp coffee --require \"coffee-script/register\"",
         "test": "coffeelint gulpfile.coffee index.coffee lib test -f ./coffeelint.json && istanbul test _mocha --report lcovonly -- ./test/*.coffee --require coffee-script/register --reporter spec"
     },
-    "version": "0.6.0"
+    "version": "0.6.0",
+    "bin": {}
 }
 ```
 
